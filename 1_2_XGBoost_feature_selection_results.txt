@@ -1,0 +1,126 @@
+ANOVA F-Score Feature Selection Results
+Generated on: 2025-06-25 10:38:21
+============================================================
+
+Top 50 Features by ANOVA F-Score:
+----------------------------------------
+ 1. KY_CD                        1.372740e+08
+ 2. PD_CD                        9.444479e+05
+ 3. SUSP_RACE                    2.391583e+05
+ 4. SUSP_AGE_GROUP               1.860508e+05
+ 5. SUSP_SEX                     1.509727e+05
+ 6. VIC_SEX                      1.227064e+05
+ 7. OFNS_DESC                    9.641504e+04
+ 8. CRM_ATPT_CPTD_CD             6.152189e+04
+ 9. PD_DESC                      4.756464e+04
+10. VIC_AGE_GROUP                2.259408e+04
+11. Year_TO                      1.945248e+04
+12. VIC_RACE                     1.660506e+04
+13. Year_RPT                     1.451260e+04
+14. Year_FR                      1.394552e+04
+15. LOC_OF_OCCUR_DESC            1.219120e+04
+16. PREM_TYP_DESC                1.152310e+04
+17. Hour_TO                      8.996659e+03
+18. Hour_FR                      8.966548e+03
+19. ADDR_PCT_CD                  7.913769e+03
+20. CMPLNT_NUM                   5.807822e+03
+21. JURIS_DESC                   5.762052e+03
+22. HOUSING_PSA                  3.822964e+03
+23. Lat_Lon                      3.821235e+03
+24. X_COORD_CD                   3.716564e+03
+25. Y_COORD_CD                   3.266529e+03
+26. JURISDICTION_CODE            2.508546e+03
+27. Latitude                     1.966641e+03
+28. STATION_NAME                 1.803053e+03
+29. DayOfWeek_RPT                1.370827e+03
+30. BORO_NM                      1.132420e+03
+31. Longitude                    1.067965e+03
+32. Month_FR                     9.267874e+02
+33. Month_RPT                    7.822526e+02
+34. PATROL_BORO                  6.496929e+02
+35. PARKS_NM                     6.355714e+02
+36. DayOfWeek_FR                 5.946673e+02
+37. Month_TO                     5.364678e+02
+38. DayOfWeek_TO                 5.263647e+02
+39. HADEVELOPT                   3.814619e+02
+
+Total features analyzed: 39
+
+============================================================
+
+Random Forest Feature Importance Results
+Generated on: 2025-06-25 17:30:39
+============================================================
+
+Top 50 Features by Random Forest Importance:
+---------------------------------------------
+ 1. KY_CD                            0.558529
+ 2. OFNS_DESC                        0.135415
+ 3. PD_CD                            0.134781
+ 4. PD_DESC                          0.118207
+ 5. VIC_SEX                          0.013698
+ 6. SUSP_RACE                        0.009719
+ 7. SUSP_SEX                         0.007290
+ 8. VIC_AGE_GROUP                    0.004244
+ 9. SUSP_AGE_GROUP                   0.004059
+10. PREM_TYP_DESC                    0.002899
+11. VIC_RACE                         0.001725
+12. LOC_OF_OCCUR_DESC                0.001695
+13. CRM_ATPT_CPTD_CD                 0.001302
+14. Year_FR                          0.000764
+15. Hour_FR                          0.000721
+16. Year_RPT                         0.000677
+17. Year_TO                          0.000604
+18. Hour_TO                          0.000527
+19. CMPLNT_NUM                       0.000471
+20. ADDR_PCT_CD                      0.000404
+21. JURISDICTION_CODE                0.000384
+22. JURIS_DESC                       0.000317
+23. X_COORD_CD                       0.000251
+24. Latitude                         0.000182
+25. Y_COORD_CD                       0.000178
+26. Longitude                        0.000176
+27. Lat_Lon                          0.000159
+28. HOUSING_PSA                      0.000125
+29. STATION_NAME                     0.000110
+30. BORO_NM                          0.000087
+31. PATROL_BORO                      0.000080
+32. DayOfWeek_RPT                    0.000055
+33. DayOfWeek_FR                     0.000043
+34. DayOfWeek_TO                     0.000037
+35. Month_RPT                        0.000027
+36. Month_TO                         0.000027
+37. Month_FR                         0.000026
+38. PARKS_NM                         0.000004
+39. HADEVELOPT                       0.000001
+
+Total features analyzed: 39
+
+============================================================
+
+RFE Selected Features (Top 20)
+Generated on: 2025-06-25 17:38:03
+============================================================
+
+Selected Features:
+--------------------
+ 1. ADDR_PCT_CD
+ 2. KY_CD
+ 3. OFNS_DESC
+ 4. PD_CD
+ 5. PD_DESC
+ 6. CRM_ATPT_CPTD_CD
+ 7. LOC_OF_OCCUR_DESC
+ 8. PREM_TYP_DESC
+ 9. JURISDICTION_CODE
+10. SUSP_AGE_GROUP
+11. SUSP_RACE
+12. SUSP_SEX
+13. VIC_AGE_GROUP
+14. VIC_RACE
+15. VIC_SEX
+16. Year_FR
+17. Hour_FR
+18. Year_TO
+19. Hour_TO
+20. Year_RPT
